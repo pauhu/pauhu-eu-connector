@@ -1,0 +1,402 @@
+[
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@context": {
+        "odrl": "http://www.w3.org/ns/odrl/2/"
+      },
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "139999"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@context": {
+        "odrl": "http://www.w3.org/ns/odrl/2/"
+      },
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "35263"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@context": {
+        "odrl": "http://www.w3.org/ns/odrl/2/"
+      },
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "4016"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@context": {
+        "odrl": "http://www.w3.org/ns/odrl/2/"
+      },
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "2194"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@context": {
+        "odrl": "http://www.w3.org/ns/odrl/2/"
+      },
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "12369"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@context": {
+        "odrl": "http://www.w3.org/ns/odrl/2/"
+      },
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "12277"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@context": {
+        "odrl": "http://www.w3.org/ns/odrl/2/"
+      },
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "11351"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@context": {
+        "odrl": "http://www.w3.org/ns/odrl/2/"
+      },
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "8467"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@context": {
+        "odrl": "http://www.w3.org/ns/odrl/2/"
+      },
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "8424"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@context": {
+        "odrl": "http://www.w3.org/ns/odrl/2/"
+      },
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "8053"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  }
+]

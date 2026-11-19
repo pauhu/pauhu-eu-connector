@@ -1,0 +1,60 @@
+Review of the 17 connector assets
+
+These are the properties currently on the connector. Our local LanguageDCAT dataset check is a closed projection: it rejects additional properties. Its failures do not by themselves establish that the Language Data Space rejects them.
+
+For the 14 data assets, the check found no missing required dataset field. The three model assets were checked against the dataset shape; those results say nothing about which model fields the model shape requires or accepts.
+
+Model asset 1
+  Missing in the dataset check: distribution (1), generation type (1), language (1), linguality type (1), media type (1).
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (11), dct:publisher (1), inputLanguage (11), it6 input modality (1), it6 intended use (2), it6 output modality (1), it6 training data (1), model distribution (1), model function (1), model type (1), outputLanguage (11), quantization (1).
+Acquis Research by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Media by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Energy by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Cultural Heritage by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Mobility by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Manufacturing by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Tourism by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Green Deal by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Public Administration by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Finance by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Agriculture by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Model asset 2
+  Missing in the dataset check: distribution (1), generation type (1), language (1), linguality type (1), media type (1).
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (1), dct:publisher (1), inputLanguage (1), it6 input modality (1), it6 intended use (2), it6 output modality (1), it6 training data (1), model distribution (1), model function (1), model type (1), outputLanguage (1), quantization (1).
+EU Public Health Law and Disease Surveillance by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Acquis Language by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+Model asset 3
+  Missing in the dataset check: distribution (1), generation type (1), language (1), linguality type (1), media type (1).
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (99), dct:publisher (1), inputLanguage (99), it6 input modality (1), it6 intended use (2), it6 output modality (1), it6 training data (1), model distribution (1), model function (1), model type (1), outputLanguage (99), quantization (1).
+Acquis Skills by Pauhu®
+  Missing in the dataset check: None.
+  Additional properties our local closed shape rejects: connector access URL (1), connector external flag (1), connector identifier (1), dct:language (24), dct:publisher (1).
+
+Penny: which of these additional properties does the Language Data Space shape accept for datasets and for models?
+The 17 bodies are a review snapshot; no connector changes were made.
