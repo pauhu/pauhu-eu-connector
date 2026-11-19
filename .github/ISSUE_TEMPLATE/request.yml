@@ -1,0 +1,23 @@
+name: Request
+description: Ask for a change to an entry or a policy.
+title: "[Request] "
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Entry or policy
+      description: The dataset entry or policy id.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+    validations:
+      required: false
