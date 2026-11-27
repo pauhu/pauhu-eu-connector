@@ -1,0 +1,428 @@
+[
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "95da664a-9545-4b9f-b706-fc8e9980e738",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        }
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": []
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "e8a8d09c-215b-46df-ad1c-73e41eece627",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        }
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "cc:Attribution"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "e85fa948-8219-4915-bcca-87875703cb5a",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "139999"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "8bd260cb-99d6-46a0-a213-22c726daffd0",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "35263"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "1ded4397-d228-475a-aaea-6b79b16a004e",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "4016"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "8957dcd4-ba99-4a9d-865b-bf5882cff567",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "2194"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "aa1d45b3-3e66-48ef-8a1c-dedd39fa0433",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "12369"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "b4695633-21e2-4c72-b5a6-77210405241b",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "12277"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "fc2f404b-3443-462e-ba74-5d4895056a75",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "11351"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "51936a09-389a-4e43-9c3e-0894e0ee1f7f",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "8467"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "e9ac62f6-1316-44b0-88d3-ab394963eee3",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "8424"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "3c9c33ed-339d-4cab-b47e-b8d7c0861073",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        },
+        "odrl:constraint": [
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:payAmount"
+            },
+            "odrl:operator": {
+              "@id": "odrl:eq"
+            },
+            "odrl:rightOperand": "8053"
+          },
+          {
+            "odrl:leftOperand": {
+              "@id": "odrl:elapsedTime"
+            },
+            "odrl:operator": {
+              "@id": "odrl:lteq"
+            },
+            "odrl:rightOperand": "365"
+          }
+        ]
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": {
+        "odrl:action": {
+          "@id": "odrl:delete"
+        }
+      }
+    }
+  },
+  {
+    "asset_association": "UNKNOWN",
+    "policy": {
+      "@id": "b428cfbd-e412-497f-b093-e9c95f81b9b1",
+      "@type": "odrl:Set",
+      "odrl:permission": {
+        "odrl:action": {
+          "@id": "odrl:use"
+        }
+      },
+      "odrl:prohibition": [],
+      "odrl:obligation": []
+    }
+  }
+]
